@@ -1,0 +1,314 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\languages\TinyRAM\TinyRAMInstance.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\Benchmark_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\ConstraintSystemToBREX\cs2BREX.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\ALU.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\ALUInputConsistency.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\generalPurpose.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\MemoryConsraints.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\traceConsistency.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\transitionFunction.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\ALUInputConsistenctUTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\ALU_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\ConstraintsSystem2BREX_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\generalPupose_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\memory_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\programs_UTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\traceConsistencyUTEST.cpp" />
+    <ClCompile Include="src\reductions\TinyRAMtoBREX\TESTS\transitionFunctionUTEST.cpp" />
+    <ClCompile Include="src\common\Configuration.cpp" />
+    <ClCompile Include="src\languages\TinyRAM\TinyRAMDefinitions.cpp" />
+    <ClCompile Include="src\PCP\Tests\ACSP_PCP\PCPWorkflowTests.cpp" />
+    <ClCompile Include="src\common\Utils\Logging.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\common\Utils\commonUtils.cpp" />
+    <ClCompile Include="src\PCP\PCP_common.cpp" />
+    <ClCompile Include="src\PCP\Prover\Prover.cpp" />
+    <ClCompile Include="src\PCP\Prover\Prover_Dummy.cpp" />
+    <ClCompile Include="src\PCP\SplitVerifiers\DecisionAlgorithms.cpp" />
+    <ClCompile Include="src\languages\ACSP\ACSPWitnessChecker.cpp" />
+    <ClCompile Include="src\languages\ACSP\ACSPWitnessChecker_UTEST.cpp" />
+    <ClCompile Include="src\languages\ACSP\examples\repeatx.cpp" />
+    <ClCompile Include="src\common\Algebra\AffinePolynomialNTL_UTEST.cpp" />
+    <ClCompile Include="src\common\Algebra\AlgebraCommon.cpp" />
+    <ClCompile Include="src\common\Algebra\AlgebraCommon_UTEST.cpp" />
+    <ClCompile Include="src\common\Algebra\details\AlgebraUtils.cpp" />
+    <ClCompile Include="src\common\Algebra\details\FFT.cpp" />
+    <ClCompile Include="src\common\Algebra\details\FiniteFields.cpp" />
+    <ClCompile Include="src\common\Algebra\details\Polynomials.cpp" />
+    <ClCompile Include="src\common\Algebra\details\Polynomials_UTEST.cpp" />
+    <ClCompile Include="src\common\Algebra\LightUniPolyEval_UTEST.cpp" />
+    <ClCompile Include="src\common\Algebra\LightUniPolyEval.cpp" />
+    <ClCompile Include="src\common\Algebra\LinearSpace.cpp" />
+    <ClCompile Include="src\common\Algebra\MultiVarPoly.cpp" />
+    <ClCompile Include="src\common\Algebra\ShiftedSubspacePolynomial.cpp" />
+    <ClCompile Include="src\languages\BREX\BrexWitnessChecker.cpp" />
+    <ClCompile Include="src\languages\BREX\BrexWitnessChecker_UTEST.cpp" />
+    <ClCompile Include="src\languages\BREX\ConstraintsSys.cpp" />
+    <ClCompile Include="src\common\Infrastructure\Infrastructure.cpp" />
+    <ClCompile Include="src\common\Algebra\FFT\LDERunner.cpp" />
+    <ClCompile Include="src\common\lightCircLib\lightCircGate.cpp" />
+    <ClCompile Include="src\common\lightCircLib\lightCircPoly.cpp" />
+    <ClCompile Include="src\common\lightCircLib\lightCircPoly_UTEST.cpp" />
+    <ClCompile Include="src\common\lightCircLib\lightCircuit.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\BREXtoACSP.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\ACSPSummandsPolynomial.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\ACSPSummandsPolynomial_UTEST.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\commonDeffinitions.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\commonMappings.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\constraints.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\constraintSystemsTestLocations.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\constraints_UTEST.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\boundaryConstraints_UTEST.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\instanceMappings.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\neighborsConstructor.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\neighborsConstructor_UTES.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\spaces.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\witnessMappings.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\witnessReduction.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Details\witnessReduction_UTEST.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\BenesNetwork.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\BitReverseButterfliesNetwork.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\BtrflyBasedPermutation.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\DeBruijnPermutationNet.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\FoldNetwork.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\LongDeBruijnPermutationNet.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\LongSymmetricDeBruijnNetwork.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\PermutationRoutingNet.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\RoutingNetworks_UTEST.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\SymmetricDeBruijnNetwork.cpp" />
+    <ClCompile Include="src\reductions\BREXtoACSP\Routing\TandemNetwork.cpp" />
+    <ClCompile Include="src\PCP\SoundnessParams.cpp" />
+    <ClCompile Include="src\common\Utils\TaskReporting.cpp" />
+    <ClCompile Include="src\common\Utils\Timing.cpp" />
+    <ClCompile Include="src\common\Utils\DedupTree.cpp" />
+    <ClCompile Include="src\PCP\Prover\QueriesResFetcher.cpp" />
+    <ClCompile Include="src\PCP\VerifierOnly\RSPCPP_queriesGenerator.cpp" />
+    <ClCompile Include="src\PCP\CryptoCommitment\MerkleCommitment.cpp" />
+    <ClCompile Include="src\PCP\CryptoCommitment\MerkleCommitment_UTEST.cpp" />
+    <ClCompile Include="src\PCP\Prover\Proof\BivariateExpansionProof.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\languages\TinyRAM\TinyRAMInstance.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\ConstraintSystemToBREX\cs2BREX.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\ALU.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\ALUInputConsistency.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\generalPurpose.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\MemoryConsraints.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\traceConsistency.hpp" />
+    <ClInclude Include="src\reductions\TinyRAMtoBREX\RamToContraintSystem\transitionFunction.hpp" />
+    <ClInclude Include="src\common\Configuration.hpp" />
+    <ClInclude Include="src\common\EnvParams.hpp" />
+    <ClInclude Include="src\languages\TinyRAM\TinyRAMDefinitions.hpp" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\PCPWorkflowTests.h" />
+    <ClInclude Include="src\common\Utils\FileHandling.hpp" />
+    <ClInclude Include="src\common\Utils\Logging.hpp" />
+    <ClInclude Include="src\common\Utils\commonUtils.hpp" />
+    <ClInclude Include="src\PCP\PCP_common.hpp" />
+    <ClInclude Include="src\PCP\Prover\Prover.hpp" />
+    <ClInclude Include="src\PCP\Prover\Prover_Dummy.hpp" />
+    <ClInclude Include="src\PCP\SplitVerifiers\DecisionAlgorithms.hpp" />
+    <ClInclude Include="src\languages\ACSP\ACSPConstraintsPolynomialInterface.hpp" />
+    <ClInclude Include="src\languages\ACSP\ACSPInstance.hpp" />
+    <ClInclude Include="src\languages\ACSP\ACSPWitness.hpp" />
+    <ClInclude Include="src\languages\ACSP\ACSPWitnessChecker.hpp" />
+    <ClInclude Include="src\common\Algebra\AffinePolynomialNTL.hpp" />
+    <ClInclude Include="src\common\Algebra\AlgebraCommon.hpp" />
+    <ClInclude Include="src\common\Algebra\AlgebraTestUtils.hpp" />
+    <ClInclude Include="src\common\Algebra\details\AlgebraUtils.hpp" />
+    <ClInclude Include="src\common\Algebra\details\FFT.hpp" />
+    <ClInclude Include="src\common\Algebra\details\FiniteFields.hpp" />
+    <ClInclude Include="src\common\Algebra\details\Polynomials.hpp" />
+    <ClInclude Include="src\common\Algebra\FFT\FFTCommon.hpp" />
+    <ClInclude Include="src\common\Algebra\FieldElement.hpp" />
+    <ClInclude Include="src\common\Algebra\FieldElementPredicate.hpp" />
+    <ClInclude Include="src\common\Algebra\FiniteField.hpp" />
+    <ClInclude Include="src\common\Algebra\FiniteSetInterface.hpp" />
+    <ClInclude Include="src\common\Algebra\LightUniPolyEval.hpp" />
+    <ClInclude Include="src\common\Algebra\LinearSpace.hpp" />
+    <ClInclude Include="src\common\Algebra\MultiVarPoly.hpp" />
+    <ClInclude Include="src\common\Algebra\MultiVarPolyIddo.hpp" />
+    <ClInclude Include="src\common\Algebra\SetInterface.hpp" />
+    <ClInclude Include="src\common\Algebra\ShiftedSubspacePolynomial.hpp" />
+    <ClInclude Include="src\languages\BREX\BrexInstance.hpp" />
+    <ClInclude Include="src\languages\BREX\BrexWitness.hpp" />
+    <ClInclude Include="src\languages\BREX\BrexWitnessChecker.hpp" />
+    <ClInclude Include="src\languages\BREX\BrexWitnessChecker_UTEST.hpp" />
+    <ClInclude Include="src\languages\BREX\ConstraintsSys.hpp" />
+    <ClInclude Include="src\common\CXX11_macros.hpp" />
+    <ClInclude Include="src\common\Algebra\FFT\IFftRunner.hpp" />
+    <ClInclude Include="src\common\Infrastructure\Infrastructure.hpp" />
+    <ClInclude Include="src\common\langCommon\Sequence.hpp" />
+    <ClInclude Include="src\common\Algebra\FFT\LDERunner.hpp" />
+    <ClInclude Include="src\common\lightCircLib\lightCircGate.hpp" />
+    <ClInclude Include="src\common\lightCircLib\lightCircPoly.hpp" />
+    <ClInclude Include="src\common\lightCircLib\lightCircuit.hpp" />
+    <ClInclude Include="src\common\Algebra\FFT\NtlFftRunner.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\ACSPSummandsPolynomial.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP_common.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP_commonDeffinitions.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP_commonInformation.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP_commonMappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\BREXtoACSP_mappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\common.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\commonDeffinitions.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\commonInformation.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\commonMappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\constraints.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\constraintSystemsTestLocations.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\boundaryConstraints.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\instanceMappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\mappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\neighborsConstructor.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\spaces.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\witnessMappings.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Details\witnessReduction.hpp" />
+    <ClInclude Include="src\reductions\PolyBuildingBlocks.hpp" />
+    <ClInclude Include="src\reductions\ReductionInterfaces.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\BenesNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\BitReverseButterfliesNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\BtrflyBasedPermutation.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\DeBruijnPermutationNet.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\Deg2PermutationRoutingNet.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\FoldNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\LongDeBruijnPermutationNet.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\LongSymmetricDeBruijnNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\MatrixNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\PermutationRoutingNet.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\RoutingNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\SymmetricDeBruijnNetwork.hpp" />
+    <ClInclude Include="src\reductions\BREXtoACSP\Routing\TandemNetwork.hpp" />
+    <ClInclude Include="src\PCP\SoundnessParams.hpp" />
+    <ClInclude Include="src\common\Utils\TaskReporting.hpp" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\PCPWorkflowShiftedTests.h" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\RS_Equals_Tests.h" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\RS_Greater_Tests.h" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\RS_Less_Tests.h" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\RS_Tests.h" />
+    <ClInclude Include="src\PCP\Tests\ACSP_PCP\VRS_Tests.h" />
+    <ClInclude Include="src\PCP\Tests\DedupTreeTests.hpp" />
+    <ClInclude Include="src\PCP\Tests\TLogsConstraints.hpp" />
+    <ClInclude Include="src\common\Utils\Timing.hpp" />
+    <ClInclude Include="src\utils\deduptree.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8EC88E78-D700-4E10-9235-696A6C435DD4}</ProjectGuid>
+    <RootNamespace>PCP</RootNamespace>
+    <ProjectName>PCP</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\PCP\src;$(IncludePath)</IncludePath>
+    <TargetName>PCP</TargetName>
+    <OutDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\build\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\PCP\src;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\build\</IntDir>
+    <TargetName>PCP</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\ntllib;$(SolutionDir);$(SolutionDir)\scipr-ext.git\boost\boost-1.55.0\win-$(Platform)\$(Configuration)\include\;$(SolutionDir)\scipr-ext.git\openssl\openssl-1.0.1e\win-$(Platform)\include\;$(SolutionDir)\scipr-ext.git\gtest\gtest-1.6.0\msvc-$(PlatformToolset)\win-$(Platform)\$(Configuration)\include\;$(SolutionDir)\FFT\src;$(SolutionDir)\PCP\src;$(SolutionDir)\gadgetlib;%(AdditionalIncludeDirectories);$(SolutionDir)\algebraLib\headers</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;LEGACY_PRINT_INSTRUCTION_SUPPORT;SCIPR_NUM_THREADS=16;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D _VARIADIC_MAX=10 %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)\ntllib\$(Configuration)\$(Platform);$(SolutionDir)\scipr-ext.git\boost\boost-1.55.0\win-$(Platform)\$(Configuration)\lib\;$(SolutionDir)\scipr-ext.git\openssl\openssl-1.0.1e\win-$(Platform)\lib\;$(SolutionDir)\FFT\$(Configuration)\$(Platform);$(SolutionDir)\scipr-ext.git\gtest\gtest-1.6.0\msvc-$(PlatformToolset)\win-$(Platform)\$(Configuration)\lib\;%(AdditionalLibraryDirectories);$(Configuration)\$(Platform);$(SolutionDir)\gadgetlib\gadgetlib\$(Configuration)\$(Platform);$(SolutionDir)\algebraLib\$(Configuration)\$(Platform)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libeay32MT.lib;ssleay32MT.lib;ntllib.lib;gtest.lib;gtest_main.lib;%(AdditionalDependencies);gadgetlib.lib;FFT.lib;algebraLib.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>
+      </IgnoreSpecificDefaultLibraries>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\ntllib;$(SolutionDir);$(SolutionDir)\scipr-ext.git\boost\boost-1.55.0\win-$(Platform)\$(Configuration)\include\;$(SolutionDir)\scipr-ext.git\openssl\openssl-1.0.1e\win-$(Platform)\include\;$(SolutionDir)\scipr-ext.git\gtest\gtest-1.6.0\msvc-$(PlatformToolset)\win-$(Platform)\$(Configuration)\include\;$(SolutionDir)\FFT\src;$(SolutionDir)\PCP\src;$(SolutionDir)\gadgetlib;%(AdditionalIncludeDirectories);$(SolutionDir)\algebraLib\headers</AdditionalIncludeDirectories>
+      <WarningLevel>Level3</WarningLevel>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <OpenMPSupport>true</OpenMPSupport>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PreprocessorDefinitions>LEGACY_PRINT_INSTRUCTION_SUPPORT;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalOptions>/D _VARIADIC_MAX=10 /D SCIPR_NUM_THREADS=1 %(AdditionalOptions)</AdditionalOptions>
+      <BrowseInformation>false</BrowseInformation>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)\ntllib\$(Configuration)\$(Platform);$(SolutionDir)\scipr-ext.git\boost\boost-1.55.0\win-$(Platform)\$(Configuration)\lib\;$(SolutionDir)\scipr-ext.git\openssl\openssl-1.0.1e\win-$(Platform)\lib\;$(SolutionDir)\FFT\$(Configuration)\$(Platform);$(SolutionDir)\scipr-ext.git\gtest\gtest-1.6.0\msvc-v$(PlatformToolsetVersion)\win-$(Platform)\$(Configuration)\lib\;%(AdditionalLibraryDirectories);$(Configuration)\$(Platform);$(SolutionDir)\gadgetlib\gadgetlib\$(Configuration)\$(Platform);$(SolutionDir)\algebraLib\$(Configuration)\$(Platform)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libeay32MTd.lib;ssleay32MTd.lib;ntllib.lib;gtestd.lib;gtest_maind.lib;%(AdditionalDependencies);gadgetlib.lib;FFT.lib;algebraLib.lib</AdditionalDependencies>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <PreBuildEvent>
+      <Command>
+      </Command>
+    </PreBuildEvent>
+    <PreLinkEvent>
+      <Command>
+      </Command>
+    </PreLinkEvent>
+    <Bscmake>
+      <PreserveSbr>false</PreserveSbr>
+      <SuppressStartupBanner>false</SuppressStartupBanner>
+    </Bscmake>
+    <Xdcmake>
+      <DocumentLibraryDependencies>false</DocumentLibraryDependencies>
+    </Xdcmake>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

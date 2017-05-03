@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NTL\config.h" />
+    <ClInclude Include="NTL\ctools.h" />
+    <ClInclude Include="NTL\c_lip.h" />
+    <ClInclude Include="NTL\def_config.h" />
+    <ClInclude Include="NTL\FacVec.h" />
+    <ClInclude Include="NTL\FFT.h" />
+    <ClInclude Include="NTL\fileio.h" />
+    <ClInclude Include="NTL\GF2.h" />
+    <ClInclude Include="NTL\GF2E.h" />
+    <ClInclude Include="NTL\GF2EX.h" />
+    <ClInclude Include="NTL\GF2EXFactoring.h" />
+    <ClInclude Include="NTL\GF2X.h" />
+    <ClInclude Include="NTL\GF2XFactoring.h" />
+    <ClInclude Include="NTL\GF2XVec.h" />
+    <ClInclude Include="NTL\g_lip.h" />
+    <ClInclude Include="NTL\HNF.h" />
+    <ClInclude Include="NTL\lip.h" />
+    <ClInclude Include="NTL\LLL.h" />
+    <ClInclude Include="NTL\lzz_p.h" />
+    <ClInclude Include="NTL\lzz_pE.h" />
+    <ClInclude Include="NTL\lzz_pEX.h" />
+    <ClInclude Include="NTL\lzz_pEXFactoring.h" />
+    <ClInclude Include="NTL\lzz_pX.h" />
+    <ClInclude Include="NTL\lzz_pXFactoring.h" />
+    <ClInclude Include="NTL\mach_desc.h" />
+    <ClInclude Include="NTL\matrix.h" />
+    <ClInclude Include="NTL\mat_GF2.h" />
+    <ClInclude Include="NTL\mat_GF2E.h" />
+    <ClInclude Include="NTL\mat_lzz_p.h" />
+    <ClInclude Include="NTL\mat_lzz_pE.h" />
+    <ClInclude Include="NTL\mat_poly_lzz_p.h" />
+    <ClInclude Include="NTL\mat_poly_ZZ.h" />
+    <ClInclude Include="NTL\mat_poly_ZZ_p.h" />
+    <ClInclude Include="NTL\mat_RR.h" />
+    <ClInclude Include="NTL\mat_ZZ.h" />
+    <ClInclude Include="NTL\mat_ZZ_p.h" />
+    <ClInclude Include="NTL\mat_ZZ_pE.h" />
+    <ClInclude Include="NTL\new.h" />
+    <ClInclude Include="NTL\pair.h" />
+    <ClInclude Include="NTL\pair_GF2EX_long.h" />
+    <ClInclude Include="NTL\pair_GF2X_long.h" />
+    <ClInclude Include="NTL\pair_lzz_pEX_long.h" />
+    <ClInclude Include="NTL\pair_lzz_pX_long.h" />
+    <ClInclude Include="NTL\pair_ZZX_long.h" />
+    <ClInclude Include="NTL\pair_ZZ_pEX_long.h" />
+    <ClInclude Include="NTL\pair_ZZ_pX_long.h" />
+    <ClInclude Include="NTL\quad_float.h" />
+    <ClInclude Include="NTL\RR.h" />
+    <ClInclude Include="NTL\SPMM_ASM.h" />
+    <ClInclude Include="NTL\tools.h" />
+    <ClInclude Include="NTL\vector.h" />
+    <ClInclude Include="NTL\vec_double.h" />
+    <ClInclude Include="NTL\vec_GF2.h" />
+    <ClInclude Include="NTL\vec_GF2E.h" />
+    <ClInclude Include="NTL\vec_GF2XVec.h" />
+    <ClInclude Include="NTL\vec_long.h" />
+    <ClInclude Include="NTL\vec_lzz_p.h" />
+    <ClInclude Include="NTL\vec_lzz_pE.h" />
+    <ClInclude Include="NTL\vec_quad_float.h" />
+    <ClInclude Include="NTL\vec_RR.h" />
+    <ClInclude Include="NTL\vec_ulong.h" />
+    <ClInclude Include="NTL\vec_vec_GF2.h" />
+    <ClInclude Include="NTL\vec_vec_GF2E.h" />
+    <ClInclude Include="NTL\vec_vec_long.h" />
+    <ClInclude Include="NTL\vec_vec_lzz_p.h" />
+    <ClInclude Include="NTL\vec_vec_lzz_pE.h" />
+    <ClInclude Include="NTL\vec_vec_RR.h" />
+    <ClInclude Include="NTL\vec_vec_ulong.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ_p.h" />
+    <ClInclude Include="NTL\vec_vec_ZZ_pE.h" />
+    <ClInclude Include="NTL\vec_xdouble.h" />
+    <ClInclude Include="NTL\vec_ZZ.h" />
+    <ClInclude Include="NTL\vec_ZZVec.h" />
+    <ClInclude Include="NTL\vec_ZZ_p.h" />
+    <ClInclude Include="NTL\vec_ZZ_pE.h" />
+    <ClInclude Include="NTL\version.h" />
+    <ClInclude Include="NTL\WordVector.h" />
+    <ClInclude Include="NTL\WordVectorStatic.h" />
+    <ClInclude Include="NTL\xdouble.h" />
+    <ClInclude Include="ntl\ZZ.h" />
+    <ClInclude Include="NTL\ZZVec.h" />
+    <ClInclude Include="NTL\ZZX.h" />
+    <ClInclude Include="NTL\ZZXFactoring.h" />
+    <ClInclude Include="NTL\ZZ_p.h" />
+    <ClInclude Include="NTL\ZZ_pE.h" />
+    <ClInclude Include="NTL\ZZ_pEX.h" />
+    <ClInclude Include="NTL\ZZ_pEXFactoring.h" />
+    <ClInclude Include="NTL\ZZ_pX.h" />
+    <ClInclude Include="NTL\ZZ_pXFactoring.h" />
+    <ClInclude Include="src\c_lip_impl.h" />
+    <ClInclude Include="src\g_lip_impl.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ctools.cpp" />
+    <ClCompile Include="src\FacVec.cpp" />
+    <ClCompile Include="src\FFT.cpp" />
+    <ClCompile Include="src\fileio.cpp" />
+    <ClCompile Include="src\GetTime.cpp" />
+    <ClCompile Include="src\GF2.cpp" />
+    <ClCompile Include="src\GF2E.cpp" />
+    <ClCompile Include="src\GF2EX.cpp" />
+    <ClCompile Include="src\GF2EXFactoring.cpp" />
+    <ClCompile Include="src\GF2X.cpp" />
+    <ClCompile Include="src\GF2X1.cpp" />
+    <ClCompile Include="src\GF2XFactoring.cpp" />
+    <ClCompile Include="src\GF2XVec.cpp" />
+    <ClCompile Include="src\G_LLL_FP.cpp" />
+    <ClCompile Include="src\G_LLL_QP.cpp" />
+    <ClCompile Include="src\G_LLL_RR.cpp" />
+    <ClCompile Include="src\G_LLL_XD.cpp" />
+    <ClCompile Include="src\HNF.cpp" />
+    <ClCompile Include="src\lip.cpp" />
+    <ClCompile Include="src\LLL.cpp" />
+    <ClCompile Include="src\LLL_FP.cpp" />
+    <ClCompile Include="src\LLL_QP.cpp" />
+    <ClCompile Include="src\LLL_RR.cpp" />
+    <ClCompile Include="src\LLL_XD.cpp" />
+    <ClCompile Include="src\lzz_p.cpp" />
+    <ClCompile Include="src\lzz_pE.cpp" />
+    <ClCompile Include="src\lzz_pEX.cpp" />
+    <ClCompile Include="src\lzz_pEXFactoring.cpp" />
+    <ClCompile Include="src\lzz_pX.cpp" />
+    <ClCompile Include="src\lzz_pX1.cpp" />
+    <ClCompile Include="src\lzz_pXCharPoly.cpp" />
+    <ClCompile Include="src\lzz_pXFactoring.cpp" />
+    <ClCompile Include="src\mat_GF2.cpp" />
+    <ClCompile Include="src\mat_GF2E.cpp" />
+    <ClCompile Include="src\mat_lzz_p.cpp" />
+    <ClCompile Include="src\mat_lzz_pE.cpp" />
+    <ClCompile Include="src\mat_poly_lzz_p.cpp" />
+    <ClCompile Include="src\mat_poly_ZZ.cpp" />
+    <ClCompile Include="src\mat_poly_ZZ_p.cpp" />
+    <ClCompile Include="src\mat_RR.cpp" />
+    <ClCompile Include="src\mat_ZZ.cpp" />
+    <ClCompile Include="src\mat_ZZ_p.cpp" />
+    <ClCompile Include="src\mat_ZZ_pE.cpp" />
+    <ClCompile Include="src\pair_GF2EX_long.cpp" />
+    <ClCompile Include="src\pair_GF2X_long.cpp" />
+    <ClCompile Include="src\pair_lzz_pEX_long.cpp" />
+    <ClCompile Include="src\pair_lzz_pX_long.cpp" />
+    <ClCompile Include="src\pair_ZZX_long.cpp" />
+    <ClCompile Include="src\pair_ZZ_pEX_long.cpp" />
+    <ClCompile Include="src\pair_ZZ_pX_long.cpp" />
+    <ClCompile Include="src\quad_float.cpp" />
+    <ClCompile Include="src\RR.cpp" />
+    <ClCompile Include="src\tools.cpp" />
+    <ClCompile Include="src\vec_double.cpp" />
+    <ClCompile Include="src\vec_GF2.cpp" />
+    <ClCompile Include="src\vec_GF2E.cpp" />
+    <ClCompile Include="src\vec_GF2XVec.cpp" />
+    <ClCompile Include="src\vec_long.cpp" />
+    <ClCompile Include="src\vec_lzz_p.cpp" />
+    <ClCompile Include="src\vec_lzz_pE.cpp" />
+    <ClCompile Include="src\vec_quad_float.cpp" />
+    <ClCompile Include="src\vec_RR.cpp" />
+    <ClCompile Include="src\vec_ulong.cpp" />
+    <ClCompile Include="src\vec_vec_GF2.cpp" />
+    <ClCompile Include="src\vec_vec_GF2E.cpp" />
+    <ClCompile Include="src\vec_vec_long.cpp" />
+    <ClCompile Include="src\vec_vec_lzz_p.cpp" />
+    <ClCompile Include="src\vec_vec_lzz_pE.cpp" />
+    <ClCompile Include="src\vec_vec_RR.cpp" />
+    <ClCompile Include="src\vec_vec_ulong.cpp" />
+    <ClCompile Include="src\vec_vec_ZZ.cpp" />
+    <ClCompile Include="src\vec_vec_ZZ_p.cpp" />
+    <ClCompile Include="src\vec_vec_ZZ_pE.cpp" />
+    <ClCompile Include="src\vec_xdouble.cpp" />
+    <ClCompile Include="src\vec_ZZ.cpp" />
+    <ClCompile Include="src\vec_ZZVec.cpp" />
+    <ClCompile Include="src\vec_ZZ_p.cpp" />
+    <ClCompile Include="src\vec_ZZ_pE.cpp" />
+    <ClCompile Include="src\WordVector.cpp" />
+    <ClCompile Include="src\WordVectorStatic.cpp" />
+    <ClCompile Include="src\xdouble.cpp" />
+    <ClCompile Include="src\ZZ.cpp" />
+    <ClCompile Include="src\ZZVec.cpp" />
+    <ClCompile Include="src\ZZX.cpp" />
+    <ClCompile Include="src\ZZX1.cpp" />
+    <ClCompile Include="src\ZZXCharPoly.cpp" />
+    <ClCompile Include="src\ZZXFactoring.cpp" />
+    <ClCompile Include="src\ZZ_p.cpp" />
+    <ClCompile Include="src\ZZ_pE.cpp" />
+    <ClCompile Include="src\ZZ_pEX.cpp" />
+    <ClCompile Include="src\ZZ_pEXFactoring.cpp" />
+    <ClCompile Include="src\ZZ_pX.cpp" />
+    <ClCompile Include="src\ZZ_pX1.cpp" />
+    <ClCompile Include="src\ZZ_pXCharPoly.cpp" />
+    <ClCompile Include="src\ZZ_pXFactoring.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{BF54B5A6-B157-4F69-A5B9-901EB0464B46}</ProjectGuid>
+    <RootNamespace>ntllib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(SolutionDir)\..\ntllib;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\build\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(SolutionDir)\..\ntllib;$(IncludePath)</IncludePath>
+    <OutDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\</OutDir>
+    <IntDir>$(SolutionDir)\$(ProjectName)\$(Configuration)\$(Platform)\build\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <OpenMPSupport>true</OpenMPSupport>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\ntllib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)\..\ntllib\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <Optimization>Disabled</Optimization>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <BrowseInformation>true</BrowseInformation>
+    </ClCompile>
+    <Bscmake>
+      <PreserveSbr>true</PreserveSbr>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\NTL">
+      <UniqueIdentifier>{c511abaf-b5e1-4cda-be6b-894b56e03c37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\src">
+      <UniqueIdentifier>{342716dd-4cda-4fc2-b04e-1ff2444a69ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="NTL\c_lip.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\config.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ctools.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\def_config.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\FacVec.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\FFT.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\fileio.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\g_lip.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2E.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2EX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2EXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2X.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2XFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\GF2XVec.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\HNF.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lip.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\LLL.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pEX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pEXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\lzz_pXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_GF2.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_GF2E.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_lzz_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_lzz_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_lzz_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_ZZ.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_poly_ZZ_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_RR.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mat_ZZ_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\matrix.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\new.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_GF2EX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_GF2X_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_lzz_pEX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_lzz_pX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZ_pEX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZ_pX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\pair_ZZX_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\quad_float.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\RR.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\SPMM_ASM.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\tools.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_double.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2E.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_GF2XVec.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_lzz_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_lzz_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_quad_float.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_RR.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ulong.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_GF2.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_GF2E.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_long.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_lzz_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_lzz_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_RR.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ulong.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_vec_ZZ_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_xdouble.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZ_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vec_ZZVec.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\vector.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\version.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\WordVector.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\xdouble.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_p.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pE.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pEX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pEXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZ_pXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZVec.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZX.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\ZZXFactoring.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="src\c_lip_impl.h">
+      <Filter>Resource Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\g_lip_impl.h">
+      <Filter>Resource Files\src</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\mach_desc.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="NTL\WordVectorStatic.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+    <ClInclude Include="ntl\ZZ.h">
+      <Filter>Header Files\NTL</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ctools.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FacVec.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FFT.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\fileio.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G_LLL_FP.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G_LLL_QP.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G_LLL_RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\G_LLL_XD.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GetTime.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2E.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2EX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2EXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2X.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2X1.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2XFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GF2XVec.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\HNF.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lip.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LLL.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LLL_FP.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LLL_QP.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LLL_RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LLL_XD.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pEX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pEXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pX1.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pXCharPoly.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lzz_pXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_GF2.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_GF2E.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_lzz_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_lzz_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_poly_lzz_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_poly_ZZ.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_poly_ZZ_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_ZZ.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_ZZ_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mat_ZZ_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_GF2EX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_GF2X_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_lzz_pEX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_lzz_pX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_ZZ_pEX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_ZZ_pX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\pair_ZZX_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\quad_float.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\tools.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_double.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_GF2.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_GF2E.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_GF2XVec.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_lzz_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_lzz_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_quad_float.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_ulong.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_GF2.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_GF2E.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_long.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_lzz_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_lzz_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_RR.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_ulong.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_ZZ.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_ZZ_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_vec_ZZ_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_xdouble.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_ZZ.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_ZZ_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_ZZ_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\vec_ZZVec.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\xdouble.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_p.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pE.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pEX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pEXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pX1.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pXCharPoly.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZ_pXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZVec.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZX.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZX1.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZXCharPoly.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ZZXFactoring.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WordVectorStatic.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\WordVector.cpp">
+      <Filter>Resource Files\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
